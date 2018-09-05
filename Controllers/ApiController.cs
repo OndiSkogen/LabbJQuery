@@ -8,7 +8,7 @@ namespace Lernia.Controllers
     [Route("api")]
     public class ApiController : Controller
     {
-        const string SEARCH_KEY = "";
+        const string SEARCH_KEY = "a11698df-8e0f-4387-b2a2-26d8a511fac1";
 
         [Route("search/{term}")]
         public async Task Search([FromRoute] string term)
